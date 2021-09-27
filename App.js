@@ -3,11 +3,12 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
-  var count = "1";
+  var count = "5";
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
-      {count}
+      <Text>{count}</Text>
+
       <StatusBar style="auto" />
     </View>
   );
