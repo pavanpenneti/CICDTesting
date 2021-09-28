@@ -11,6 +11,9 @@
     "release-build-apk": "cd android && ./gradlew clean && ./gradlew assembleRelease && yarn android --variant=release"
   },
   "dependencies": {
+    "appcenter": "4.3.0",
+    "appcenter-analytics": "4.3.0",
+    "appcenter-crashes": "4.3.0",
     "expo": "~42.0.1",
     "expo-splash-screen": "~0.11.2",
     "expo-status-bar": "~1.0.4",
